@@ -47,7 +47,7 @@ Python programming demo of the Sonokai theme and customized lualine
 Oil.nvim
 
 ![image](https://github.com/user-attachments/assets/93701f51-d824-494c-b6ce-30c5410b3442)
-Telescop.nvim
+Telescope.nvim
 
 ![image](https://github.com/user-attachments/assets/9cf8de6b-2ad9-44e1-a70e-db970b41e478)
 Automaton (make it rain!)
