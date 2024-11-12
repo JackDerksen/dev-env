@@ -33,7 +33,7 @@ Fastfetch menu display (yes, I know my Arch logo is orange!)
 
 
 ## NeoVim Configuration
-[nvim/]([Link here](https://github.com/JackDerksen/viis-dev-kit/tree/main/nvim))
+[nvim/](https://github.com/JackDerksen/viis-dev-kit/tree/main/nvim)
 
 Many settings left as defaults from LazyVim, but with some extra plugins I find helpful and some that I don't like disabled.
 
@@ -62,7 +62,7 @@ My minimal, sort of Sonokai themed Tmux configuration. A few sensible plugins, t
 
 
 ## FD/FZF Configuration
-[In .bashrc](https://github.com/JackDerksen/viis-dev-kit/blob/main/dotfiles/.bashrc)
+[Located in .bashrc](https://github.com/JackDerksen/viis-dev-kit/blob/main/dotfiles/.bashrc)
 
 Pretty basic, aliases set up for both file fuzzy-finding (opened directly into NeoVim) and directory fuzzy-find navigation.
 
