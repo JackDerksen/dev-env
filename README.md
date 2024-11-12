@@ -6,7 +6,6 @@ Some old repositories of mine, [JackDerksen/tmux](https://github.com/JackDerksen
 ## Table of Contents:
 - [Windows Terminal with Arch running in WSL2](#Windows-Terminal-Settings)
 - [NeoVim](#NeoVim-Configuration)
-    - More specifically, a slightly tweaked version of Lazyvim
 - [Tmux](#Tmux-Configuration)
 - [FD and FZF](#FD/FZF-Configuration)
 
@@ -35,7 +34,7 @@ Fastfetch menu display (yes, I know my Arch logo is orange!)
 ## NeoVim Configuration
 [nvim/](https://github.com/JackDerksen/viis-dev-kit/tree/main/nvim)
 
-Many settings left as defaults from LazyVim, but with some extra plugins I find helpful and some that I don't like disabled.
+Basically just a slightly tweaked LazyVim, since I've found I really enjoy most of it's defaults. Some extra plugins I find helpful, with some defaults that I don't like disabled.
 
 ![image](https://github.com/user-attachments/assets/6d6fa022-cff2-40e5-abf5-5675b554268d)
 Startup dashboard
