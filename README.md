@@ -20,6 +20,8 @@ Currently, I'm using the [Sonokai](https://github.com/sainnhe/sonokai) theme thr
 
 ![image](https://github.com/user-attachments/assets/b2d08cd6-13cd-4a89-afc5-ab73dd333614)
 
+![image](https://github.com/user-attachments/assets/7aa775e7-914e-46db-b164-9525026ebce8)
+
 
 ## NeoVim Configuration
 [neovim/](Link here)
