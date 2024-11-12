@@ -1,0 +1,123 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": "toggleFocusMode",
+            "id": "User.toggleFocusMode"
+        },
+    ],
+    "centerOnLaunch": true,
+    "confirmCloseAllTabs": false,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+    "initialCols": 110,
+    "initialRows": 33,
+    "keybindings": 
+    [
+        {
+            "id": "User.toggleFocusMode",
+            "keys": "ctrl+alt+f"
+        },
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "launchMode": "focus",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Sonokai",
+            "tabColor": "#2C2E34"
+        },
+        "list": 
+        [
+            {
+                "antialiasingMode": "grayscale",
+                "colorScheme": "Sonokai",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "CaskaydiaMono Nerd Font Mono",
+                    "size": 17,
+                    "weight": 440
+                },
+                "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+                "hidden": false,
+                "icon": "\ud83d\udc1a",
+                "name": "Arch",
+                "opacity": 100,
+                "padding": "5",
+                "scrollbarState": "hidden",
+                "source": "Windows.Terminal.Wsl",
+                "tabTitle": "I use Arch, btw",
+                "useAcrylic": false
+            },
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#2C2E34",
+            "black": "#7F8490",
+            "blue": "#76CCE0",
+            "brightBlack": "#7F8490",
+            "brightBlue": "#76CCE0",
+            "brightCyan": "#F39660",
+            "brightGreen": "#9ED072",
+            "brightPurple": "#B39DF3",
+            "brightRed": "#FC5D7C",
+            "brightWhite": "#E2E2E3",
+            "brightYellow": "#E7C664",
+            "cursorColor": "#E2E2E3",
+            "cyan": "#F39660",
+            "foreground": "#E2E2E3",
+            "green": "#9ED072",
+            "name": "Sonokai",
+            "purple": "#B39DF3",
+            "red": "#FC5D7C",
+            "selectionBackground": "#595F6F",
+            "white": "#E2E2E3",
+            "yellow": "#E7C664"
+        },
+    ],
+    "snapToGridOnResize": false,
+    "themes": 
+    [
+    ],
+    "useAcrylicInTabRow": true
+}
