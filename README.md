@@ -1,6 +1,8 @@
 # viis-dev-kit
 ## The tools and configuration I use for programming, all in one place!
 
+Currently, I'm using the [Sonokai](https://github.com/sainnhe/sonokai) theme throughout my terminal environment. 
+
 ## Table of Contents:
 - [Windows Terminal with Arch running in WSL2](#Windows-Terminal-Settings)
 - [NeoVim](#NeoVim-Configuration)
@@ -8,7 +10,8 @@
 - [Tmux](#Tmux-Configuration)
 - [FD and FZF](#FD/FZF-Configuration)
 
-Currently, I'm using the [Sonokai](https://github.com/sainnhe/sonokai) theme throughout my terminal environment. 
+
+---
 
 
 ## Windows Terminal Settings
