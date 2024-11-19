@@ -1,5 +1,5 @@
 alias cls=clear
-alias vim=nvim
+alias vim=nvim # Best alias ever
 alias fetch=fastfetch
 
 alias tls='tmux ls'
