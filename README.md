@@ -63,7 +63,7 @@ My minimal, sort of Sonokai themed Tmux configuration. A few sensible plugins, t
 ## FD/FZF Configuration
 [Located in .bashrc](https://github.com/JackDerksen/viis-dev-kit/blob/main/dotfiles/.bashrc)
 
-Pretty basic, aliases set up for both file fuzzy-finding (opened directly into NeoVim) and directory fuzzy-find navigation.
+Pretty basic, aliases set up for both file fuzzy-finding (opened directly into NeoVim) and directory fuzzy-find navigation. Will open in a centered window if used inside of a Tmux session.
 
 ![image](https://github.com/user-attachments/assets/2c74d0d0-8262-4150-8b61-34f171fbc45a)
 
