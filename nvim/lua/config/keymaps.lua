@@ -35,9 +35,6 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 -- Make file executable
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
--- Open terminal mode (ctrl+d to exit!)
---vim.keymap.set("n", "<leader>t", "<cmd>terminal<CR>")
-
 -- Undotree
 vim.keymap.set("n", "<leader>uu", vim.cmd.UndotreeToggle)
 
