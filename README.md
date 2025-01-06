@@ -34,25 +34,24 @@ Fastfetch menu display (yes, I know my Arch logo is orange!)
 ## NeoVim Configuration
 [nvim/](https://github.com/JackDerksen/viis-dev-kit/tree/main/nvim)
 
+![image](https://github.com/user-attachments/assets/e4bfe952-ba14-4ec8-adf7-e3e7e85ef7ad)
+
 Basically just a slightly tweaked LazyVim, since I've found I really enjoy most of it's defaults. Some extra plugins I find helpful, with some defaults that I don't like disabled.
 
-![image](https://github.com/user-attachments/assets/6d6fa022-cff2-40e5-abf5-5675b554268d)
+![image](https://github.com/user-attachments/assets/9ef39c67-dfa2-42e4-a634-7156e56210c8)
 Startup dashboard
 
-![image](https://github.com/user-attachments/assets/5b27a8ed-794f-4ce5-9328-fc1f2348b701)
+![image](https://github.com/user-attachments/assets/afd9667e-afd6-4a6e-bc8d-34627dec69f4)
 Python programming demo of the Sonokai theme and customized lualine
 
-![image](https://github.com/user-attachments/assets/1a19cd1c-40b3-4812-b73d-569a21f355a9)
+![image](https://github.com/user-attachments/assets/7f1c8753-be00-4e9f-a404-3e2812f112ba)
 Oil.nvim
-
-![image](https://github.com/user-attachments/assets/9cf8de6b-2ad9-44e1-a70e-db970b41e478)
-Automaton (make it rain!)
 
 
 ## Tmux Configuration
 [tmux.conf](https://github.com/JackDerksen/viis-dev-kit/tree/main/nvim)
 
-My minimal, sort of Sonokai themed Tmux configuration. A few sensible plugins, these are all I personally need. Tmux-resurrect is a lifesaver!
+My minimal Sonokai themed Tmux configuration. A few sensible plugins, these are all I personally need. Tmux-resurrect in particular is a lifesaver!
 
 ![image](https://github.com/user-attachments/assets/34add692-d939-4b23-80f7-edeceee81679)
 
