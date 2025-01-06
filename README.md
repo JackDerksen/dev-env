@@ -24,7 +24,7 @@ These are the general settings I use for my Windows Terminal environment. Some s
 
 My dotfiles for Arch Linux in WSL2. These aliases are obviously according to my personal use cases and preferences. My Sonokai FZF configuration is located in the `.bashrc` file.
 
-![image](https://github.com/user-attachments/assets/f888dc21-1885-49f1-a50b-513712162edf)
+![image](https://github.com/user-attachments/assets/164ca45e-8721-4981-a2ae-15959ef7e8c9)
 Main terminal colour scheme and bash prompt
 
 ![image](https://github.com/user-attachments/assets/7aa775e7-914e-46db-b164-9525026ebce8)
