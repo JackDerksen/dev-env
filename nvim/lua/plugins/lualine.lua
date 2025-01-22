@@ -23,7 +23,7 @@ return {
         lualine_a = {
           {
             "mode",
-            icon = "",
+            icon = "",
             separator = { left = "", right = "" },
             color = {
               fg = "#2c2e34",

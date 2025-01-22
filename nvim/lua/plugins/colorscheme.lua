@@ -103,10 +103,21 @@ return {
       vim.g.sonokai_disable_italic_comment = true
     end,
   },
+  {
+    "jackplus-xyz/binary.nvim",
+    opts = {
+      style = "dark",
+      colors = {
+        bg = "#d8d5db",
+        fg = "#202124",
+      },
+    },
+  },
   { -- Current colorscheme
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "sonokai",
+      --colorscheme = "binary",
     },
   },
 }
