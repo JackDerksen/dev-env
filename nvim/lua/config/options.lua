@@ -1,7 +1,8 @@
 vim.opt.guicursor = ""
 vim.opt.cursorline = false
 
--- vim.opt.mouse = ""
+-- Don't be a pussy
+vim.opt.mouse = ""
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
