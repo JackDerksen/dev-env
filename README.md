@@ -1,4 +1,4 @@
-# viis-dev-kit
+# dev-env
 ## The tools and configuration I use for programming, all in one place!
 
 Some old repositories of mine, [JackDerksen/tmux](https://github.com/JackDerksen/tmux) and [JackDerksen/viis-nvim](https://github.com/JackDerksen/viis-nvim), are basically deprecated at this point and no longer used by me. This repo should be more updated! Currently, I'm using the [Sonokai](https://github.com/sainnhe/sonokai) theme throughout my terminal environment. 
