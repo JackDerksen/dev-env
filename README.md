@@ -4,10 +4,29 @@
 Some old repositories of mine, [JackDerksen/tmux](https://github.com/JackDerksen/tmux) and [JackDerksen/viis-lazyvim](https://github.com/JackDerksen/viis-lazyvim), are basically deprecated at this point and no longer used by me. This repo should be more updated! Currently, I'm using the [Sonokai](https://github.com/sainnhe/sonokai) theme throughout my terminal environment. 
 
 ## Table of Contents:
+- [My Typical Workflow](#Workflow-Example)
 - [Windows Terminal with Arch running in WSL2](#Windows-Terminal-Settings)
 - [NeoVim](#NeoVim-Configuration)
 - [Tmux](#Tmux-Configuration)
 - [FD and FZF](#FD/FZF-Configuration)
+
+
+---
+
+## Workflow Example
+
+### If I want to work in a directory
+
+1. `$ dff` to fuzzy-find my way to the directory I want to work in
+2. `$ tn dev` to start a new Tmux instance rooted in that directory
+3. Make new Tmux windows depening on what I'm doing
+  - Example: If I'm working on a programming project, I might `Ctrl+Space` to edit the title of the currently-focused Tmux window to 'nvim' if that will be my dedicated programming window, then `Ctrl+c` to make a new window and `Ctrl+Space` again and rename that one 'testing'. I can then split the testing window vertically (`Ctrl+Space`, `|`) or horizontally (`Ctrl+Space`, `-`) depending on how I want to test my code.
+
+4. If you want to save the state of this Tmux session to return to later, you can hit `Ctrl+Space`, `Ctrl+s` to save the state. You can then quit the Tmux or terminal session safely, and reload it later with `Ctrl+Space`, `Ctrl+r` from within a new Tmux session (the session name will be reloaded from the previously-saved session). 
+
+### If I just need to work on a specific file
+
+Type `$ ff` to open up an fzf finder, then fuzzy-find my way to that specific file and automatically open it in Neovim.
 
 
 ---
