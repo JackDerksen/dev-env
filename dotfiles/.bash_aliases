@@ -1,5 +1,6 @@
 alias cls=clear
-alias vim=nvim # Best alias ever
+alias vim=nvim   # Best alias ever
+alias emacs=nvim # Even better alias?
 alias fetch=fastfetch
 
 alias tls='tmux ls'
@@ -30,7 +31,7 @@ alias gs='git status'
 alias gb='git branch'
 alias gc='git checkout'
 
-# Fuzzy find
+# Fuzzy find a file, automatically open it in nvim
 alias ff='fd --type f --hidden --exclude .git | fzf-tmux -p | xargs nvim'
 
 # Directory fuzzy find
