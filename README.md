@@ -14,13 +14,13 @@ Some old repositories of mine, [JackDerksen/tmux](https://github.com/JackDerksen
 
 
 ## Windows Terminal Settings
-[settings.json](https://github.com/JackDerksen/viis-dev-kit/blob/main/terminal/settings.json)
+[settings.json](https://github.com/JackDerksen/dev-env/blob/main/terminal/settings.json)
 
 These are the general settings I use for my Windows Terminal environment. Some sort of nerd font is necessary for this NeoVim config to work properly.
 
 
 ## Arch WSL2 Dotfiles
-[dotfiles/](https://github.com/JackDerksen/viis-dev-kit/tree/main/dotfiles)
+[dotfiles/](https://github.com/JackDerksen/dev-env/tree/main/dotfiles)
 
 My dotfiles for Arch Linux in WSL2. These aliases are obviously according to my personal use cases and preferences. My Sonokai FZF configuration is located in the `.bashrc` file.
 
@@ -32,24 +32,26 @@ Fastfetch menu display (yes, I know my Arch logo is orange!)
 
 
 ## NeoVim Configuration
-[nvim/](https://github.com/JackDerksen/viis-dev-kit/tree/main/nvim)
+[nvim/](https://github.com/JackDerksen/dev-env/tree/main/nvim)
 
-![image](https://github.com/user-attachments/assets/e4bfe952-ba14-4ec8-adf7-e3e7e85ef7ad)
+![image](https://github.com/user-attachments/assets/f0722f22-749c-41fe-a09a-75e16ea95f17)
 
 Basically just a slightly tweaked LazyVim, since I've found I really enjoy most of it's defaults. Some extra plugins I find helpful, with some defaults that I don't like disabled.
 
-![image](https://github.com/user-attachments/assets/9ef39c67-dfa2-42e4-a634-7156e56210c8)
+![image](https://github.com/user-attachments/assets/3f729d32-1a58-4696-bec8-d744373dfa6b)
 Startup dashboard
 
-![image](https://github.com/user-attachments/assets/afd9667e-afd6-4a6e-bc8d-34627dec69f4)
-Python programming demo of the Sonokai theme and customized lualine
+![image](https://github.com/user-attachments/assets/37024130-dde1-4103-ba7f-ba1d4e97b324)
+Rust programming demo of the Sonokai theme and customized lualine
 
-![image](https://github.com/user-attachments/assets/7f1c8753-be00-4e9f-a404-3e2812f112ba)
-Oil.nvim
+![image](https://github.com/user-attachments/assets/e2455833-fe65-40e2-a504-f949e3ae48ee)
+Oil.nvim is my preferred file explorer
+
+![image](https://github.com/user-attachments/assets/4f3ba028-7a03-4111-b196-2d093141d5b1)
 
 
 ## Tmux Configuration
-[tmux.conf](https://github.com/JackDerksen/viis-dev-kit/tree/main/nvim)
+[tmux.conf](https://github.com/JackDerksen/dev-env/tree/main/nvim)
 
 My minimal Sonokai themed Tmux configuration. A few sensible plugins, these are all I personally need. Tmux-resurrect in particular is a lifesaver!
 
@@ -57,7 +59,7 @@ My minimal Sonokai themed Tmux configuration. A few sensible plugins, these are 
 
 
 ## FD/FZF Configuration
-[Located in .bashrc](https://github.com/JackDerksen/viis-dev-kit/blob/main/dotfiles/.bashrc)
+[Located in .bashrc](https://github.com/JackDerksen/dev-env/blob/main/dotfiles/.bashrc)
 
 Pretty basic, aliases set up for both file fuzzy-finding (opened directly into NeoVim) and directory fuzzy-find navigation. Will open in a centered window if used inside of a Tmux session.
 
