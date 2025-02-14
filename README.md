@@ -16,7 +16,7 @@ Some old repositories of mine, [JackDerksen/tmux](https://github.com/JackDerksen
 ## Windows Terminal Settings
 [settings.json](https://github.com/JackDerksen/dev-env/blob/main/terminal/settings.json)
 
-These are the general settings I use for my Windows Terminal environment. Some sort of nerd font is necessary for this NeoVim config to work properly.
+I do almost all of my programming in Arch WSL through the Windows Terminal, so I've spent quite a bit of time fine-tuning it to my needs and preferences. These are the general settings I use for my Windows Terminal environment. Note that some sort of [nerd font](https://www.nerdfonts.com/) is necessary for this NeoVim config to work properly.
 
 
 ## Arch WSL2 Dotfiles
@@ -24,11 +24,11 @@ These are the general settings I use for my Windows Terminal environment. Some s
 
 My dotfiles for Arch Linux in WSL2. These aliases are obviously according to my personal use cases and preferences. My Sonokai FZF configuration is located in the `.bashrc` file.
 
-![image](https://github.com/user-attachments/assets/164ca45e-8721-4981-a2ae-15959ef7e8c9)
+![image](https://github.com/user-attachments/assets/94f8d428-cbcc-4f81-9881-cf0436c99a90)
 Main terminal colour scheme and bash prompt
 
-![image](https://github.com/user-attachments/assets/7aa775e7-914e-46db-b164-9525026ebce8)
-Fastfetch menu display (yes, I know my Arch logo is orange!)
+![image](https://github.com/user-attachments/assets/46074455-74e5-4912-9056-2eed97571610)
+Fastfetch menu display (yes yes, orange Arch logo)
 
 
 ## NeoVim Configuration
