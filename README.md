@@ -55,7 +55,7 @@ Oil.nvim is my preferred file explorer
 
 My minimal Sonokai themed Tmux configuration. A few sensible plugins, these are all I personally need. Tmux-resurrect in particular is a lifesaver!
 
-![image](https://github.com/user-attachments/assets/34add692-d939-4b23-80f7-edeceee81679)
+![image](https://github.com/user-attachments/assets/ab69d499-7a05-4413-b5cd-7861f26be04c)
 
 
 ## FD/FZF Configuration
@@ -63,5 +63,4 @@ My minimal Sonokai themed Tmux configuration. A few sensible plugins, these are 
 
 Pretty basic, aliases set up for both file fuzzy-finding (opened directly into NeoVim) and directory fuzzy-find navigation. Will open in a centered window if used inside of a Tmux session.
 
-![image](https://github.com/user-attachments/assets/2c74d0d0-8262-4150-8b61-34f171fbc45a)
-
+![image](https://github.com/user-attachments/assets/d3a3227a-d9eb-435a-8c61-3e3a44d84133)
