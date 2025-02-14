@@ -1,7 +1,7 @@
 # dev-env
 ## The tools and configuration I use for programming, all in one place!
 
-Some old repositories of mine, [JackDerksen/tmux](https://github.com/JackDerksen/tmux) and [JackDerksen/viis-nvim](https://github.com/JackDerksen/viis-nvim), are basically deprecated at this point and no longer used by me. This repo should be more updated! Currently, I'm using the [Sonokai](https://github.com/sainnhe/sonokai) theme throughout my terminal environment. 
+Some old repositories of mine, [JackDerksen/tmux](https://github.com/JackDerksen/tmux) and [JackDerksen/viis-lazyvim](https://github.com/JackDerksen/viis-lazyvim), are basically deprecated at this point and no longer used by me. This repo should be more updated! Currently, I'm using the [Sonokai](https://github.com/sainnhe/sonokai) theme throughout my terminal environment. 
 
 ## Table of Contents:
 - [Windows Terminal with Arch running in WSL2](#Windows-Terminal-Settings)
