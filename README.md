@@ -6,7 +6,7 @@ Some old repositories of mine, [JackDerksen/tmux](https://github.com/JackDerksen
 # Table of Contents:
 - [My Typical Workflow](#Workflow-Example)
 - [Windows Terminal with Arch running in WSL2](#Windows-Terminal-Settings)
-- [NeoVim](#NeoVim-Configuration)
+- [Neovim](#Neovim-Configuration)
 - [Tmux](#Tmux-Configuration)
 - [FD and FZF](#FD/FZF-Configuration)
 - [Installation Instructions](#Installation)
@@ -36,7 +36,7 @@ Type `$ ff` to open up an fzf finder, then fuzzy-find my way to that specific fi
 # Windows Terminal Settings
 [settings.json](https://github.com/JackDerksen/dev-env/blob/main/terminal/settings.json)
 
-I do almost all of my programming in Arch WSL through the Windows Terminal, so I've spent quite a bit of time fine-tuning it to my needs and preferences. These are the general settings I use for my Windows Terminal environment. Note that some sort of [nerd font](https://www.nerdfonts.com/) is necessary for this NeoVim config to work properly.
+I do almost all of my programming in Arch WSL through the Windows Terminal, so I've spent quite a bit of time fine-tuning it to my needs and preferences. These are the general settings I use for my Windows Terminal environment. Note that some sort of [nerd font](https://www.nerdfonts.com/) is necessary for this Neovim config to work properly.
 
 
 ## Arch WSL2 Dotfiles
@@ -81,7 +81,7 @@ My minimal Sonokai themed Tmux configuration. A few sensible plugins, these are 
 # FD/FZF Configuration
 [Located in .bashrc](https://github.com/JackDerksen/dev-env/blob/main/dotfiles/.bashrc)
 
-Pretty basic, aliases set up for both file fuzzy-finding (opened directly into NeoVim) and directory fuzzy-find navigation. Will open in a centered window if used inside of a Tmux session.
+Pretty basic, aliases set up for both file fuzzy-finding (opened directly into Neovim) and directory fuzzy-find navigation. Will open in a centered window if used inside of a Tmux session.
 
 ![image](https://github.com/user-attachments/assets/d3a3227a-d9eb-435a-8c61-3e3a44d84133)
 
