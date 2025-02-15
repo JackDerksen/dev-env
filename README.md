@@ -3,19 +3,20 @@
 
 Some old repositories of mine, [JackDerksen/tmux](https://github.com/JackDerksen/tmux) and [JackDerksen/viis-lazyvim](https://github.com/JackDerksen/viis-lazyvim), are basically deprecated at this point and no longer used by me. This repo should be more updated! Currently, I'm using the [Sonokai](https://github.com/sainnhe/sonokai) theme throughout my terminal environment. 
 
-## Table of Contents:
+# Table of Contents:
 - [My Typical Workflow](#Workflow-Example)
 - [Windows Terminal with Arch running in WSL2](#Windows-Terminal-Settings)
 - [NeoVim](#NeoVim-Configuration)
 - [Tmux](#Tmux-Configuration)
 - [FD and FZF](#FD/FZF-Configuration)
+- [Installation Instructions](#Installation)
 
 
 ---
 
-## Workflow Example
+# Workflow Example
 
-### If I want to work in a directory
+## If I want to work in a directory
 
 1. `$ dff` to fuzzy-find my way to the directory I want to work in
 2. `$ tn dev` to start a new Tmux instance rooted in that directory
@@ -24,7 +25,7 @@ Some old repositories of mine, [JackDerksen/tmux](https://github.com/JackDerksen
 
 4. If you want to save the state of this Tmux session to return to later, you can hit `Ctrl+Space`, `Ctrl+s` to save the state. You can then quit the Tmux or terminal session safely, and reload it later with `Ctrl+Space`, `Ctrl+r` from within a new Tmux session (the session name will be reloaded from the previously-saved session). 
 
-### If I just need to work on a specific file
+## If I just need to work on a specific file
 
 Type `$ ff` to open up an fzf finder, then fuzzy-find my way to that specific file and automatically open it in Neovim.
 
@@ -32,7 +33,7 @@ Type `$ ff` to open up an fzf finder, then fuzzy-find my way to that specific fi
 ---
 
 
-## Windows Terminal Settings
+# Windows Terminal Settings
 [settings.json](https://github.com/JackDerksen/dev-env/blob/main/terminal/settings.json)
 
 I do almost all of my programming in Arch WSL through the Windows Terminal, so I've spent quite a bit of time fine-tuning it to my needs and preferences. These are the general settings I use for my Windows Terminal environment. Note that some sort of [nerd font](https://www.nerdfonts.com/) is necessary for this NeoVim config to work properly.
@@ -50,7 +51,7 @@ Main terminal colour scheme and bash prompt
 Fastfetch menu display (yes yes, orange Arch logo)
 
 
-## NeoVim Configuration
+# NeoVim Configuration
 [nvim/](https://github.com/JackDerksen/dev-env/tree/main/nvim)
 
 ![image](https://github.com/user-attachments/assets/f0722f22-749c-41fe-a09a-75e16ea95f17)
@@ -69,7 +70,7 @@ Oil.nvim is my preferred file explorer
 ![image](https://github.com/user-attachments/assets/4f3ba028-7a03-4111-b196-2d093141d5b1)
 
 
-## Tmux Configuration
+# Tmux Configuration
 [tmux.conf](https://github.com/JackDerksen/dev-env/tree/main/nvim)
 
 My minimal Sonokai themed Tmux configuration. A few sensible plugins, these are all I personally need. Tmux-resurrect in particular is a lifesaver!
@@ -77,9 +78,34 @@ My minimal Sonokai themed Tmux configuration. A few sensible plugins, these are 
 ![image](https://github.com/user-attachments/assets/ab69d499-7a05-4413-b5cd-7861f26be04c)
 
 
-## FD/FZF Configuration
+# FD/FZF Configuration
 [Located in .bashrc](https://github.com/JackDerksen/dev-env/blob/main/dotfiles/.bashrc)
 
 Pretty basic, aliases set up for both file fuzzy-finding (opened directly into NeoVim) and directory fuzzy-find navigation. Will open in a centered window if used inside of a Tmux session.
 
 ![image](https://github.com/user-attachments/assets/d3a3227a-d9eb-435a-8c61-3e3a44d84133)
+
+---
+
+# Installation
+
+## First make sure you have these dependencies installed:
+- Git
+- Curl
+- Neovim (version >= 0.9.0)
+- [fzf](https://github.com/junegunn/fzf)
+- [fd](https://github.com/sharkdp/fd)
+- [Ripgrep](https://https://github.com/BurntSushi/ripgrep)
+- [Tmux](https://github.com/tmux/tmux/wiki/Installing)
+- Some [nerd font](https://www.nerdfonts.com/) for your terminal, just so it can display all the icons correctly
+
+## After that...
+1. Clone this repository onto your machine, ideally at the `~/` directory.
+2. Run the install script with `./install.sh`. That should:
+  - Back up your existing files, if they already exist
+  - Automatically install my Neovim and Tmux configurations in `~/.config/nvim` and `~./config/tmux` respectively
+  - Automatically append the contents of my `.bashrc` and `.bash_aliases` files to your respective files
+  - Provide clear status feedback along the way
+3. Restart your terminal and/or run `$ source ~/.bashrc` to refresh your terminal with the changes
+
+Note: This will leave the `settings.json` file for the Windows Terminal settings in the cloned repo directory for you to apply on your own in the terminal settings.
