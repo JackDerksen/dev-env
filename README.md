@@ -101,7 +101,7 @@ Pretty basic, aliases set up for both file fuzzy-finding (opened directly into N
 
 ## After that...
 1. Clone this repository onto your machine, ideally at the `~/` directory.
-2. Run the install script with `./install.sh`. That should:
+2. Run the install script with `.$ /install.sh`. That should:
   - Back up your existing files, if they already exist
   - Automatically install my Neovim and Tmux configurations in `~/.config/nvim` and `~./config/tmux` respectively
   - Automatically append the contents of my `.bashrc` and `.bash_aliases` files to your respective files
