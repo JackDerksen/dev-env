@@ -101,11 +101,12 @@ Pretty basic, aliases set up for both file fuzzy-finding (opened directly into N
 
 ## After that...
 1. Clone this repository onto your machine, ideally at the `~/` directory.
-2. Run the install script with `.$ /install.sh`. That should:
+2. `cd` into the new `dev-env/` directory and change the permissions of the install script with `$ chmod +x install.sh`
+3. Run the install script with `.$ /install.sh`. That should:
   - Back up your existing files, if they already exist
   - Automatically install my Neovim and Tmux configurations in `~/.config/nvim` and `~./config/tmux` respectively
   - Automatically append the contents of my `.bashrc` and `.bash_aliases` files to your respective files
   - Provide clear status feedback along the way
-3. Restart your terminal and/or run `$ source ~/.bashrc` to refresh your terminal with the changes
+4. Restart your terminal and/or run `$ source ~/.bashrc` to refresh your terminal with the changes
 
 Note: This will leave the `settings.json` file for the Windows Terminal settings in the cloned repo directory for you to apply on your own in the terminal settings.
