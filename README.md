@@ -92,12 +92,12 @@ Pretty basic, aliases set up for both file fuzzy-finding (opened directly into N
 ## First make sure you have these dependencies installed:
 - Git
 - Curl
-- Neovim (version >= 0.9.0)
+- [Neovim (version >= 0.9.0)](https://github.com/neovim/neovim/releases)
 - [fzf](https://github.com/junegunn/fzf)
 - [fd](https://github.com/sharkdp/fd)
 - [Ripgrep](https://https://github.com/BurntSushi/ripgrep)
 - [Tmux](https://github.com/tmux/tmux/wiki/Installing)
-- Some [nerd font](https://www.nerdfonts.com/) for your terminal, just so it can display all the icons correctly
+- Some [nerd font](https://www.nerdfonts.com/) for your terminal, just so it can display all the icons correctly. I like Caskaydia Mono.
 
 ## After that...
 1. Clone this repository onto your machine, ideally at the `~/` directory.
