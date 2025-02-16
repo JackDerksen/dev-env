@@ -21,7 +21,7 @@ Some old repositories of mine, [JackDerksen/tmux](https://github.com/JackDerksen
 1. `$ dff` to fuzzy-find my way to the directory I want to work in
 2. `$ tn dev` to start a new Tmux instance rooted in that directory
 3. Make new Tmux windows depening on what I'm doing
-  - **Example** (*note that `<Ctrl+Space>` is my 'leader key' for Tmux*): If I'm working on a programming project, I might `<Ctrl+Space> ,` to edit the title of the currently-focused Tmux window to 'nvim' if that will be my dedicated programming window, then `Ctrl+c` to make a new window and `<Ctrl+Space>` again and rename that one 'testing'. I can then split the testing window vertically (`<Ctrl+Space> |`) or horizontally (`<Ctrl+Space> -`) depending on how I want to test my code.
+  - **Example:** (*note that `<Ctrl+Space>` is my 'leader key' for Tmux*) If I'm working on a programming project, I might `<Ctrl+Space> ,` to edit the title of the currently-focused Tmux window to 'nvim' if that will be my dedicated programming window, then `Ctrl+c` to make a new window and `<Ctrl+Space>` again and rename that one 'testing'. I can then split the testing window vertically (`<Ctrl+Space> |`) or horizontally (`<Ctrl+Space> -`) depending on how I want to test my code.
 
 4. If you want to save the state of this Tmux session to return to later, you can hit `<Ctrl+Space> Ctrl+s` to save the state. You can then quit the Tmux or terminal session safely, and reload it later with `<Ctrl+Space> Ctrl+r` from within a new Tmux session (the session name will be reloaded from the previously-saved session). 
 
