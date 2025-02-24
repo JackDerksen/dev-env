@@ -2,6 +2,9 @@
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
+-- Copy contents of a function
+vim.keymap.set("n", "YY", "va{Vy")
+
 -- Join line while keeping the cursor in the same position
 vim.keymap.set("n", "J", "mzJ`z")
 
@@ -70,3 +73,7 @@ vim.keymap.set("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>")
 vim.keymap.set("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>")
 vim.keymap.set("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>")
 vim.keymap.set("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>")
+
+-- Navigate buffers with Ctrl + arrow keys
+vim.keymap.set("n", "<C-Right>", ":bnext<CR>")
+vim.keymap.set("n", "<C-Left>", ":bprevious<CR>")
