@@ -62,7 +62,8 @@
         "defaults": 
         {
             "colorScheme": "Sonokai",
-            "tabColor": "#2C2E34"
+            "tabColor": "#2C2E34",
+            "font": { "face": "Cascadia Mono" }
         },
         "list": 
         [
