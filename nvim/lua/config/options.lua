@@ -1,9 +1,6 @@
 vim.opt.guicursor = ""
 vim.opt.cursorline = false
 
--- Don't be a pussy
-vim.opt.mouse = ""
-
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -32,3 +29,7 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "81"
 vim.opt.pumblend = 0
+
+vim.o.termguicolors = true
+
+vim.opt.fillchars = { eob = " " }

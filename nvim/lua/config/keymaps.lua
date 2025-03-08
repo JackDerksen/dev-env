@@ -38,42 +38,12 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 -- Make file executable
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
--- Undotree
-vim.keymap.set("n", "<leader>uu", vim.cmd.UndotreeToggle)
-
 -- Oil
 vim.keymap.set("n", "<leader>e", "<cmd>lua require('oil').toggle_float()<CR>", { desc = "Oil" })
 
--- Harpoon
-local harpoon = require("harpoon")
-harpoon:setup()
-
-vim.keymap.set("n", "<leader>ha", function()
-  harpoon:list():add()
-end)
-vim.keymap.set("n", "<leader>he", function()
-  harpoon.ui:toggle_quick_menu(harpoon:list())
-end)
-
-vim.keymap.set("n", "<leader>h1", function()
-  harpoon:list():select(1)
-end)
-vim.keymap.set("n", "<leader>h2", function()
-  harpoon:list():select(2)
-end)
-vim.keymap.set("n", "<leader>h3", function()
-  harpoon:list():select(3)
-end)
-vim.keymap.set("n", "<leader>h4", function()
-  harpoon:list():select(4)
-end)
-
--- Tmux window switching from Neovim
-vim.keymap.set("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>")
-vim.keymap.set("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>")
-vim.keymap.set("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>")
-vim.keymap.set("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>")
-
 -- Navigate buffers with Ctrl + arrow keys
-vim.keymap.set("n", "<C-Right>", ":bnext<CR>")
-vim.keymap.set("n", "<C-Left>", ":bprevious<CR>")
+vim.keymap.set("n", "<C-Right>", ":bnext<CR>", { silent = true })
+vim.keymap.set("n", "<C-Left>", ":bprevious<CR>", { silent = true })
+
+-- Lazy menu
+vim.keymap.set("n", "<leader>l", "<cmd>Lazy<CR>", { silent = true })
