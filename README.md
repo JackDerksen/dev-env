@@ -44,30 +44,49 @@ I do almost all of my programming in Arch WSL through the Windows Terminal, so I
 
 My dotfiles for Arch Linux in WSL2. These aliases are obviously according to my personal use cases and preferences. My Sonokai FZF configuration is located in the `.bashrc` file.
 
-![image](https://github.com/user-attachments/assets/94f8d428-cbcc-4f81-9881-cf0436c99a90)
+![image](https://github.com/user-attachments/assets/23a63cd0-799f-484b-bd9d-e98493033194)
 Main terminal colour scheme and bash prompt
 
-![image](https://github.com/user-attachments/assets/46074455-74e5-4912-9056-2eed97571610)
+![image](https://github.com/user-attachments/assets/f7b107e2-9673-487a-9fee-3da91225bdef)
 Fastfetch menu display (yes yes, orange Arch logo)
 
 
 # NeoVim Configuration
 [nvim/](https://github.com/JackDerksen/dev-env/tree/main/nvim)
 
-![image](https://github.com/user-attachments/assets/f0722f22-749c-41fe-a09a-75e16ea95f17)
+![image](https://github.com/user-attachments/assets/4282a411-fa1d-4654-9a90-50f9238df126)
 
-Basically just a slightly tweaked LazyVim, since I've found I really enjoy most of it's defaults. Some extra plugins I find helpful, with some defaults that I don't like disabled.
+My fully-custom NeoVim configuration with the following key plugins:
+- Lazy plugin manager
+- Sonokai colorscheme
+- Mason and LSP-config for LSP integration
+- Nvim-CMP for code completion, along with snippets
+- Conform for code formatting
+- Fugitive, Gitsigns, Rhubarb, and GV for git functionality
+- Harpoon2 for fast file switching
+- Mini.Indentscope for indent scope highlighting
+- None-LS for linting
+- Lualine for a nice statusline
+- Noice for nicer command line, popup, and message UIs
+- Oil for file navigation and management
+- Snacks Dashboard for a nice startup dashboard
+- Telescope for fuzzy-finding functionality
+- Vim-Tmux-Navigator for easier usage with Tmux
+- Treesitter for all the wonderful Treesitter things
+- Undotree for better undo-ing
+- Whichkey for keymap help
 
-![image](https://github.com/user-attachments/assets/3f729d32-1a58-4696-bec8-d744373dfa6b)
-Startup dashboard
+![image](https://github.com/user-attachments/assets/a59b1b8f-f80d-418c-b966-1876bcacd6ff)
+!Emacs Startup dashboard
 
-![image](https://github.com/user-attachments/assets/37024130-dde1-4103-ba7f-ba1d4e97b324)
-Rust programming demo of the Sonokai theme and customized lualine
+![image](https://github.com/user-attachments/assets/9a8f2bb2-e358-407a-8c8c-2578504d34a0)
+Rust programming demo of the Sonokai theme and customized Lualine
 
-![image](https://github.com/user-attachments/assets/e2455833-fe65-40e2-a504-f949e3ae48ee)
-Oil.nvim is my preferred file explorer
+![image](https://github.com/user-attachments/assets/956d0781-a438-486a-b537-78fa7f08c9a0)
+Oil is my preferred file explorer, allowing you to modify the file structure like a vim buffer
 
-![image](https://github.com/user-attachments/assets/4f3ba028-7a03-4111-b196-2d093141d5b1)
+![image](https://github.com/user-attachments/assets/e3fffa92-9b3a-4ef4-a750-e30c7a06d921)
+Telescope fuzzy finding
 
 
 # Tmux Configuration
@@ -75,7 +94,7 @@ Oil.nvim is my preferred file explorer
 
 My minimal Sonokai themed Tmux configuration. A few sensible plugins, these are all I personally need. Tmux-resurrect in particular is a lifesaver!
 
-![image](https://github.com/user-attachments/assets/ab69d499-7a05-4413-b5cd-7861f26be04c)
+![image](https://github.com/user-attachments/assets/4eb2b147-bf6e-424a-97e0-14f8a8a1a878)
 
 
 # FD/FZF Configuration
@@ -83,7 +102,7 @@ My minimal Sonokai themed Tmux configuration. A few sensible plugins, these are 
 
 Pretty basic, aliases set up for both file fuzzy-finding (opened directly into Neovim) and directory fuzzy-find navigation. Will open in a centered window if used inside of a Tmux session.
 
-![image](https://github.com/user-attachments/assets/d3a3227a-d9eb-435a-8c61-3e3a44d84133)
+![image](https://github.com/user-attachments/assets/fb428486-e349-4a54-8ffd-0e9c09bbc4c5)
 
 ---
 
