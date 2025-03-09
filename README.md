@@ -116,7 +116,8 @@ Pretty basic, aliases set up for both file fuzzy-finding (opened directly into N
 - [fd](https://github.com/sharkdp/fd)
 - [Ripgrep](https://https://github.com/BurntSushi/ripgrep)
 - [Tmux](https://github.com/tmux/tmux/wiki/Installing)
-- Some [nerd font](https://www.nerdfonts.com/) for your terminal, just so it can display all the icons correctly. I like Caskaydia Mono.
+- [TPM](https://github.com/tmux-plugins/tpm)
+- Some [nerd font](https://www.nerdfonts.com/) for your terminal, just so it can display all the icons correctly. I like Caskaydia Mono, personally.
 
 ## After that...
 1. Clone this repository onto your machine, ideally at the `~/` directory.
@@ -127,5 +128,9 @@ Pretty basic, aliases set up for both file fuzzy-finding (opened directly into N
   - Automatically append the contents of my `.bashrc` and `.bash_aliases` files to your respective files
   - Provide clear status feedback along the way
 4. Restart your terminal and/or run `$ source ~/.bashrc` to refresh your terminal with the changes
+5. To source the Tmux changes:
+  - Start a new session with `$ tmux`
+  - Source the configuration file and load the TPM packages with `$ tmux source ~/.config/tmux/tmux.conf`
+  - After sourcing the configuration file, all the new keybinds and plugins should work, and you should be able to re-source it simply by using `Ctrl + Space, r` from now on.
 
-Note: This will leave the `settings.json` file for the Windows Terminal settings in the cloned repo directory for you to apply on your own in the terminal settings.
+**Note**: This will leave the `settings.json` file for the Windows Terminal settings in the cloned repo directory for you to apply on your own in the terminal settings.
