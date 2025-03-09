@@ -6,7 +6,7 @@ Some old repositories of mine, [JackDerksen/tmux](https://github.com/JackDerksen
 # Table of Contents:
 - [My Typical Workflow](#Workflow-Example)
 - [Windows Terminal with Arch running in WSL2](#Windows-Terminal-Settings)
-- [Neovim](#Neovim-Configuration)
+- [NeoVim](#NeoVim-Configuration)
 - [Tmux](#Tmux-Configuration)
 - [FD and FZF](#FD/FZF-Configuration)
 - [Installation Instructions](#Installation)
@@ -27,7 +27,7 @@ Some old repositories of mine, [JackDerksen/tmux](https://github.com/JackDerksen
 
 ## If I just need to work on a specific file
 
-Type `$ ff` to open up an fzf finder, then fuzzy-find my way to that specific file and automatically open it in Neovim.
+Type `$ ff` to open up an fzf finder, then fuzzy-find my way to that specific file and automatically open it in NeoVim.
 
 
 ---
@@ -36,7 +36,7 @@ Type `$ ff` to open up an fzf finder, then fuzzy-find my way to that specific fi
 # Windows Terminal Settings
 [settings.json](https://github.com/JackDerksen/dev-env/blob/main/terminal/settings.json)
 
-I do almost all of my programming in Arch WSL through the Windows Terminal, so I've spent quite a bit of time fine-tuning it to my needs and preferences. These are the general settings I use for my Windows Terminal environment. Note that some sort of [nerd font](https://www.nerdfonts.com/) is necessary for this Neovim config to work properly.
+I do almost all of my programming in Arch WSL through the Windows Terminal, so I've spent quite a bit of time fine-tuning it to my needs and preferences. These are the general settings I use for my Windows Terminal environment. Note that some sort of [nerd font](https://www.nerdfonts.com/) is necessary for this NeoVim config to work properly.
 
 
 ## Arch WSL2 Dotfiles
@@ -100,7 +100,7 @@ My minimal Sonokai themed Tmux configuration. A few sensible plugins, these are 
 # FD/FZF Configuration
 [Located in .bashrc](https://github.com/JackDerksen/dev-env/blob/main/dotfiles/.bashrc)
 
-Pretty basic, aliases set up for both file fuzzy-finding (opened directly into Neovim) and directory fuzzy-find navigation. Will open in a centered window if used inside of a Tmux session.
+Pretty basic, aliases set up for both file fuzzy-finding (opened directly into NeoVim) and directory fuzzy-find navigation. Will open in a centered window if used inside of a Tmux session.
 
 ![image](https://github.com/user-attachments/assets/fb428486-e349-4a54-8ffd-0e9c09bbc4c5)
 
@@ -111,7 +111,7 @@ Pretty basic, aliases set up for both file fuzzy-finding (opened directly into N
 ## First make sure you have these dependencies installed:
 - Git
 - Curl
-- [Neovim (version >= 0.9.0)](https://github.com/neovim/neovim/releases)
+- [NeoVim (version >= 0.9.0)](https://github.com/NeoVim/NeoVim/releases)
 - [fzf](https://github.com/junegunn/fzf)
 - [fd](https://github.com/sharkdp/fd)
 - [Ripgrep](https://https://github.com/BurntSushi/ripgrep)
@@ -123,7 +123,7 @@ Pretty basic, aliases set up for both file fuzzy-finding (opened directly into N
 2. `cd` into the new `dev-env/` directory and change the permissions of the install script with `$ chmod +x install.sh`
 3. Run the install script with `$ ./install.sh`. That should:
   - Back up your existing files, if they already exist
-  - Automatically install my Neovim and Tmux configurations in `~/.config/nvim` and `~./config/tmux` respectively
+  - Automatically install my NeoVim and Tmux configurations in `~/.config/nvim` and `~./config/tmux` respectively
   - Automatically append the contents of my `.bashrc` and `.bash_aliases` files to your respective files
   - Provide clear status feedback along the way
 4. Restart your terminal and/or run `$ source ~/.bashrc` to refresh your terminal with the changes
