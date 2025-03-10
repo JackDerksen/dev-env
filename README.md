@@ -131,6 +131,7 @@ Pretty basic, aliases set up for both file fuzzy-finding (opened directly into N
 5. To source the Tmux changes:
   - Start a new session with `$ tmux`
   - Source the configuration file and load the TPM packages with `$ tmux source ~/.config/tmux/tmux.conf`
-  - After sourcing the configuration file, all the new keybinds and plugins should work, and you should be able to re-source it simply by using `Ctrl + Space, r` from now on.
+  - Install the TPM packages with `Ctrl + Space, I`
+  - All the new keybinds and plugins should work now, and you should be able to re-source Tmux simply by using `Ctrl + Space, r` from now on.
 
-**Note**: This will leave the `settings.json` file for the Windows Terminal settings in the cloned repo directory for you to apply on your own in the terminal settings.
+**Note**: This install script will leave the `settings.json` file for the Windows Terminal settings in the cloned repo directory for you to apply on your own in the terminal settings.
