@@ -58,22 +58,22 @@ Fastfetch menu display (yes yes, orange Arch logo)
 
 My fully-custom NeoVim configuration with the following key plugins:
 - Lazy plugin manager
-- Sonokai colorscheme
 - Mason and LSP-config for LSP integration
-- Nvim-CMP for code completion, along with snippets
+- Nvim-CMP suite for code completion and snippets
 - Conform for code formatting
-- Fugitive, Gitsigns, Rhubarb, and GV for git functionality
+- Gitsigns for git change UI in the sign column
 - Harpoon2 for fast file switching
-- Mini.Indentscope for indent scope highlighting
+- Heirline for a very fast and nice-looking statusline
+- Indent-Blankline for indent scope highlighting
 - None-LS for linting
-- Lualine for a nice statusline
 - Noice for nicer command line, popup, and message UIs
 - Oil for file navigation and management
 - Snacks Dashboard for a nice startup dashboard
 - Telescope for fuzzy-finding functionality
-- Vim-Tmux-Navigator for easier usage with Tmux
 - Treesitter for all the wonderful Treesitter things
+- Trouble of code error management
 - Undotree for better undo-ing
+- Vim-Tmux-Navigator for easier usage with Tmux
 - Whichkey for keymap help
 
 ![image](https://github.com/user-attachments/assets/a59b1b8f-f80d-418c-b966-1876bcacd6ff)
