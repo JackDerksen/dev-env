@@ -47,6 +47,7 @@ My dotfiles for Arch Linux in WSL2. These aliases are obviously according to my 
 ![image](https://github.com/user-attachments/assets/23a63cd0-799f-484b-bd9d-e98493033194)
 Main terminal colour scheme and bash prompt
 
+
 ![image](https://github.com/user-attachments/assets/f7b107e2-9673-487a-9fee-3da91225bdef)
 Fastfetch menu display (yes yes, orange Arch logo)
 
@@ -56,34 +57,40 @@ Fastfetch menu display (yes yes, orange Arch logo)
 
 ![image](https://github.com/user-attachments/assets/971c5934-9473-4a6e-8e60-14ee59f73676)
 
-My fully-custom NeoVim configuration with the following key plugins:
-- Lazy plugin manager
-- Mason and LSP-config for LSP integration
-- Nvim-CMP suite for code completion and snippets
-- Conform for code formatting
-- Gitsigns for git change UI in the sign column
-- Harpoon2 for fast file switching
-- Heirline for a very fast and nice-looking statusline
-- Indent-Blankline for indent scope highlighting
-- None-LS for linting
-- Noice for nicer command line, popup, and message UIs
-- Oil for file navigation and management
-- Snacks Dashboard for a nice startup dashboard
-- Telescope for fuzzy-finding functionality
-- Treesitter for all the wonderful Treesitter things
-- Trouble of code error management
-- Undotree for better undo-ing
-- Vim-Tmux-Navigator for easier usage with Tmux
-- Whichkey for keymap help
+My fully-custom, blazingly-fast NeoVim configuration with the Lazy plugin manager and the following key plugins:
+
+|Plugin|Purpose|
+|------|-------|
+|Mason + LSP-Config|LSP integration|
+|Nvim-CMP Suite|Code completion and snippets|
+|Conform|Code formatting|
+|Gitsigns|Git change UI in the sign column|
+|Harpoon2|Fast file switching|
+|Heirline|A very fast and nice-looking statusline|
+|Indent-Blankline|Indent scope highlighting|
+|None-LS|Linting|
+|Noice|Nicer command line, popup, and message UIs|
+|Oil|File navigation and management|
+|Snacks Dashboard|A nice startup dashboard|
+|Telescope|Fuzzy-finding functionality|
+|Treesitter|All the wonderful Treesitter things|
+|Trouble|Easy error management|
+|Undotree|Better undo-ing|
+|Vim-Tmux-Navigator|Better compatibility with Tmux keymaps|
+|Whichkey|General keymap help|
+
 
 ![image](https://github.com/user-attachments/assets/a59b1b8f-f80d-418c-b966-1876bcacd6ff)
 !Emacs Startup dashboard
 
+
 ![image](https://github.com/user-attachments/assets/34d910fa-3167-417d-94b6-b747207566e5)
 Rust programming demo of the Sonokai theme and customized Lualine
 
+
 ![image](https://github.com/user-attachments/assets/f2424058-9857-46c0-a657-d9ddd03f507d)
 Oil is my preferred file explorer, allowing you to modify the file structure like a vim buffer
+
 
 ![image](https://github.com/user-attachments/assets/85daf283-1fac-449c-8db8-cd9521a1d521)
 Telescope fuzzy finding
