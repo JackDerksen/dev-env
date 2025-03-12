@@ -57,6 +57,20 @@ return {
 				{ "type", "asc" },
 				{ "name", "asc" },
 			},
+			render = {
+				icon = {
+					directory = "󰉋",
+					renderer = function(icon_str, metadata, render_opts)
+						local icon, hl = require("nvim-web-devicons").get_icon(
+							metadata.name,
+							vim.fn.fnamemodify(metadata.name, ":e"),
+							{ default = true }
+						)
+						-- Override the highlight group to make it colorless
+						return icon, "Normal"
+					end,
+				},
+			},
 		},
 		-- Configuration for the floating window in oil.open_float
 		float = {
@@ -111,6 +125,19 @@ return {
 			},
 		},
 	},
-	-- Optional dependencies
-	dependencies = { "nvim-tree/nvim-web-devicons" },
+	dependencies = {
+		"nvim-tree/nvim-web-devicons",
+		config = function()
+			require("nvim-web-devicons").setup({
+				default = true,
+				color_icons = false,
+				override = {
+					default_icon = {
+						color = "#e2e2e3",
+						name = "Default",
+					},
+				},
+			})
+		end,
+	},
 }
