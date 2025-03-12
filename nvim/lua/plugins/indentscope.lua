@@ -35,7 +35,7 @@ return {
       end
 
       -- Add keymapping for toggling
-      vim.keymap.set("n", "<leader>ug", toggle_indent_guides, { desc = "Toggle indentation guides" })
+      vim.keymap.set("n", "<leader>ig", toggle_indent_guides, { desc = "Toggle indentation guides" })
     end,
     main = "ibl",
   },
