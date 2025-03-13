@@ -55,7 +55,7 @@ Fastfetch menu display (yes yes, orange Arch logo)
 # NeoVim Configuration
 [nvim/](https://github.com/JackDerksen/dev-env/tree/main/nvim)
 
-![image](https://github.com/user-attachments/assets/971c5934-9473-4a6e-8e60-14ee59f73676)
+![image](https://github.com/user-attachments/assets/be3b615c-b7b7-4b9e-b516-06ffc556eac4)
 
 My fully-custom, blazingly-fast NeoVim configuration with the Lazy plugin manager and the following key plugins:
 
@@ -80,19 +80,19 @@ My fully-custom, blazingly-fast NeoVim configuration with the Lazy plugin manage
 |Whichkey|General keymap help|
 
 
-![image](https://github.com/user-attachments/assets/a59b1b8f-f80d-418c-b966-1876bcacd6ff)
+![Screenshot 2025-03-12 181438](https://github.com/user-attachments/assets/69fe8153-0cb5-4407-ad03-6866e75eb109)
 !Emacs Startup dashboard
 
 
-![image](https://github.com/user-attachments/assets/34d910fa-3167-417d-94b6-b747207566e5)
+![image](https://github.com/user-attachments/assets/8ca20db1-01bd-47a2-9c88-f9c9dca1b614)
 Rust programming demo of the Sonokai theme and customized Lualine
 
 
-![image](https://github.com/user-attachments/assets/f2424058-9857-46c0-a657-d9ddd03f507d)
+![image](https://github.com/user-attachments/assets/c57faf5b-745b-4c5e-9b8e-53f1b3296bda)
 Oil is my preferred file explorer, allowing you to modify the file structure like a vim buffer
 
 
-![image](https://github.com/user-attachments/assets/85daf283-1fac-449c-8db8-cd9521a1d521)
+![image](https://github.com/user-attachments/assets/6cfd4b68-32d9-43ef-b76b-9581c4255bd0)
 Telescope fuzzy finding
 
 
