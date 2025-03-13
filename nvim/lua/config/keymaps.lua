@@ -41,7 +41,7 @@ M.setup_general = function()
   map({ "n", "v" }, "<leader>d", [["_d]], { desc = "Delete to void register" })
 
   -- Fixed ctrl+c weirdness to exit from vertical select mode
-  map("i", "<C-c>", "<Esc>")
+  map({ "i", "v" }, "<C-c>", "<Esc>")
 
   -- Delete shift+q keymap
   map("n", "Q", "<nop>")
@@ -93,7 +93,14 @@ M.setup_plugin_manager = function()
   map("n", "<leader>l", "<cmd>Lazy<CR>", { silent = true })
 end
 
--- Git mappings - updated to use gitsigns instead of fugitive
+-- Cellular-Automaton mappings
+M.setup_automaton = function()
+  map("n", "<leader>ar", "<cmd>CellularAutomaton make_it_rain<CR>", { silent = true, desc = "Make it rain" })
+  map("n", "<leader>ag", "<cmd>CellularAutomaton game_of_life<CR>", { silent = true, desc = "Game of life" })
+  map("n", "<leader>as", "<cmd>CellularAutomaton scramble<CR>", { silent = true, desc = "Scramble" })
+end
+
+-- Git mappings
 M.setup_git = function()
   local gs = package.loaded.gitsigns
   if not gs then
@@ -269,6 +276,7 @@ local function setup()
   vim.api.nvim_create_autocmd("User", {
     pattern = "VeryLazy",
     callback = function()
+      M.setup_automaton()
       M.setup_git()
       M.setup_tmux()
       M.setup_telescope()

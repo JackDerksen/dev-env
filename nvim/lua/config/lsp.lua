@@ -62,10 +62,10 @@ function M.setup()
 
   -- Set diagnostic signs
   local signs = {
-    Error = " ",
-    Warn = " ",
-    Hint = " ",
-    Info = " ",
+    Error = " ",
+    Warn = " ",
+    Hint = "󰍉 ",
+    Info = " ",
   }
 
   for type, icon in pairs(signs) do
@@ -117,6 +117,11 @@ function M.setup()
   lspconfig.clangd.setup({
     capabilities = clangd_capabilities,
     on_attach = M.on_attach,
+    cmd = {
+      "clangd",
+      "--header-insertion=never",
+      "--clang-tidy",
+    },
   })
 
   -- Rust LSP

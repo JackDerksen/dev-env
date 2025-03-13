@@ -7,7 +7,7 @@ return {
     formatters_by_ft = {
       lua = { "stylua" },
       python = { "isort", "black" },
-      rust = { "rustfmt" }, -- Deprecated :/
+      rust = { "rustfmt" }, -- Deprecated via Mason, installed automatically with Rust
       javascript = { "prettierd", "prettier" },
       typescript = { "prettierd", "prettier" },
       javascriptreact = { "prettierd", "prettier" },
