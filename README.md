@@ -81,7 +81,7 @@ My fully-custom, blazingly-fast NeoVim configuration with the Lazy plugin manage
 
 
 ![Screenshot 2025-03-12 181438](https://github.com/user-attachments/assets/69fe8153-0cb5-4407-ad03-6866e75eb109)
-!Emacs Startup dashboard
+!Emacs startup dashboard
 
 
 ![image](https://github.com/user-attachments/assets/8ca20db1-01bd-47a2-9c88-f9c9dca1b614)
@@ -99,7 +99,7 @@ Telescope fuzzy finding
 # Tmux Configuration
 [tmux.conf](https://github.com/JackDerksen/dev-env/tree/main/nvim)
 
-My minimal Sonokai themed Tmux configuration. A few sensible plugins, these are all I personally need. Tmux-resurrect in particular is a lifesaver!
+My minimal Sonokai-themed Tmux configuration. A few sensible plugins, these are all I personally need. Tmux-resurrect in particular is a lifesaver!
 
 ![image](https://github.com/user-attachments/assets/4eb2b147-bf6e-424a-97e0-14f8a8a1a878)
 
@@ -118,6 +118,7 @@ Pretty basic, aliases set up for both file fuzzy-finding (opened directly into N
 ## First make sure you have these dependencies installed:
 - Git
 - Curl
+- A C compiler (like gcc, needed for Treesitter)
 - [NeoVim (version >= 0.9.0)](https://github.com/NeoVim/NeoVim/releases)
 - [fzf](https://github.com/junegunn/fzf)
 - [fd](https://github.com/sharkdp/fd)
