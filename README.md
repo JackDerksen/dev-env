@@ -118,6 +118,8 @@ Pretty basic, aliases set up for both file fuzzy-finding (opened directly into N
 ## First make sure you have these dependencies installed:
 - Git
 - Curl
+- wget
+- Luarocks
 - A C compiler (like gcc, needed for Treesitter)
 - [NeoVim (version >= 0.9.0)](https://github.com/NeoVim/NeoVim/releases)
 - [fzf](https://github.com/junegunn/fzf)
