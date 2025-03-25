@@ -137,12 +137,6 @@ function M.setup()
     },
   })
 
-  -- Astro LSP
-  lspconfig.astro.setup({
-    capabilities = capabilities,
-    on_attach = M.on_attach,
-  })
-
   -- Python LSP
   lspconfig.pylsp.setup({
     capabilities = capabilities,

@@ -1,5 +1,6 @@
 return {
   "rebelot/heirline.nvim",
+  lazy = true,
   event = "VeryLazy",
   dependencies = {
     "nvim-tree/nvim-web-devicons",
@@ -33,9 +34,9 @@ return {
         diag_bg = "#515565",
         middle_bg = "#33353f",
 
-        normal = "#b39df3", -- purple
-        insert = "#76cce0", -- blue
-        visual = "#f39660", -- orange
+        normal = "#b39df3",  -- purple
+        insert = "#76cce0",  -- blue
+        visual = "#f39660",  -- orange
         replace = "#fc5d7c", -- red
         command = "#9ed072", -- green
         inactive = "#33353f",

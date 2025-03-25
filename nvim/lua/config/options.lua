@@ -33,3 +33,8 @@ vim.opt.pumblend = 0
 vim.o.termguicolors = true
 
 vim.opt.fillchars = { eob = " " }
+
+--vim.api.nvim_set_hl(0, "FloatBorder", { bg = "none", fg = "#b39df3", bold = true })
+vim.api.nvim_set_hl(0, "FloatBorder", { link = "Normal" })
+vim.api.nvim_set_hl(0, "FloatTitle", { bg = "none", fg = "#76cce0", bold = true })
+--vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })

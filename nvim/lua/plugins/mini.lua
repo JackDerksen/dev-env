@@ -1,5 +1,6 @@
 return {
   "echasnovski/mini.pairs",
+  lazy = true,
   event = "VeryLazy",
   config = function()
     require("mini.pairs").setup({

@@ -10,9 +10,8 @@ return {
       require("mason-lspconfig").setup({
         ensure_installed = {
           "lua_ls",
-          "clangd",
           "rust_analyzer",
-          "astro",
+          "clangd",
           "pylsp",
         },
         automatic_installation = true,
